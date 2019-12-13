@@ -1,0 +1,41 @@
+/*font-family: 'Vollkorn', serif;*/
+/* Color Theme Swatches in Hex */
+/*snowy white #F4EDED, pale grey blue #AFB8BA, soft ice green blue #879C9E, navy #283442, icy lilac #B1ACB8 */
+
+body {
+	background-color: #F4EDED;
+}
+.container.main {
+	margin-top:15%;
+	min-height: 500px;
+}
+.container {
+	margin-top: 5%;
+	background-color: #F4EDED;
+}
+.column {
+	margin-top: 5rem;
+}
+header {
+	height: 100px;
+	padding: 20px;
+}
+
+footer {
+	height:	80px;
+}
+header, footer {
+	text-align: center;
+	background-color: #879C9E;
+	color: #283442;
+}
+h4, p, img, ul {
+	padding-left: 20px;
+	padding-right: 20px;
+	/*the padding keeps them from being so close to the container edges*/
+}
+img {
+	width: 80%;
+	height: auto;
+	/*important that height is always set to auto*/
+}
